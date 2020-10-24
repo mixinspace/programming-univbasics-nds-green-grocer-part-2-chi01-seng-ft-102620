@@ -32,6 +32,7 @@ def apply_clearance(cart)
   #
   # REMEMBER: This method **should** update cart
 end
+end
 
 def checkout(cart, coupons)
   # Consult README for inputs and outputs
