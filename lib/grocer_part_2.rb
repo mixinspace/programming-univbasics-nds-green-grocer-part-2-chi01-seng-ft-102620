@@ -7,8 +7,8 @@ def apply_coupons(cart, coupons)
     item_in_basket = item_coupon
     big_count = item_in_basket && item_coupon[:count] >= coupon[:num]
     if item_in_basket and big_count
-      cart << { item: "#{item_with_coupon[:item]} W/COUPON", 
-                price: coupon[:cost] / coupon[:num], 
+      cart << { item: "#{item_with_coupon[:item]} W/COUPON",
+                price: coupon[:cost] / coupon[:num],
                 clearance: item_with_coupon[:clearance],
                 count: coupon[:num]
               }
